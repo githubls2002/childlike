@@ -1,0 +1,17 @@
+
+spring:
+  application:
+    ## 服务名称
+    name: nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        ## 服务注册地址
+        server-addr: 127.0.0.1:8848
+
+management:
+  # 端点检查（健康检查）
+  endpoints:
+    web:
+      exposure:
+        include: "*"
