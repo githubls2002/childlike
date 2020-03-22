@@ -1,0 +1,16 @@
+server:
+  port: 9862
+
+spring:
+  application:
+    name: cloud-center
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/githubls2002/childlike.git
+          search-paths: config
+          username: githubls2002
+          password: github43ls
+          skipSslValidation: true
+      label: master

@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>cloud-login-nacos-clienl6234</module>
+        <module>cloud-center-nacos-server7234</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
