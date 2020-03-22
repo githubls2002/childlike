@@ -2,7 +2,7 @@
 spring:
   application:
     ## 服务名称
-    name: nacos-consumer
+    name: cloud-login
   cloud:
     nacos:
       discovery:
